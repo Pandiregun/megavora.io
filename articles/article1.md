@@ -1,3 +1,4 @@
+![gambar](https://github.com/Pandiregun/megavora.io/assets/169259715/7b367d4b-ae95-43e1-85ee-d43bb65374c6)
 # Judul Artikel1
 
 Ini adalah paragraf teks untuk artikel.
