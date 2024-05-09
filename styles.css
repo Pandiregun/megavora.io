@@ -4,17 +4,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
 }
 
 nav ul {
     list-style: none;
+    padding: 0;
 }
 
 nav ul li {
@@ -25,12 +27,13 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 16px;
 }
 
 .container {
-    width: 90%;
+    max-width: 1200px;
     margin: auto;
-    padding: 20px 0;
+    padding: 20px;
 }
 
 section {
@@ -39,13 +42,20 @@ section {
 
 h2 {
     text-align: center;
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .social-media {
@@ -62,12 +72,10 @@ footer {
 .social-media li a {
     color: #fff;
     text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
 }
 
-/* Responsiveness */
-@media screen and (max-width: 768px) {
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
+.social-media li a:hover {
+    color: #ddd;
 }
