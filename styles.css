@@ -12,6 +12,15 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    position: relative; /* Tambahkan posisi relatif untuk konten absolut */
+}
+
+header img {
+    max-width: 150px; /* Sesuaikan ukuran maksimum logo */
+    position: absolute; /* Atur posisi absolut untuk logo */
+    top: 50%; /* Geser logo ke tengah vertikal */
+    transform: translateY(-50%); /* Geser logo ke tengah vertikal */
+    left: 20px; /* Geser logo ke sisi kiri */
 }
 
 nav ul {
