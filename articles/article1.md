@@ -2,8 +2,7 @@
 
 Ini adalah paragraf teks untuk artikel.
 
-![Gambar Artikel](articles/foto/gambar.jpg)
-
+![Gambar Artikel](assets/logo.png)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 ## Subjudul
