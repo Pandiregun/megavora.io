@@ -28,7 +28,7 @@ nav ul li a {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding: 20px 0;
 }
@@ -46,14 +46,12 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 .social-media {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 .social-media li {
@@ -66,3 +64,10 @@ footer {
     text-decoration: none;
 }
 
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
