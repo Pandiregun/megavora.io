@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Megavora - Channel Blockchain dan Cryptocurrency</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('Assets/latar.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -33,10 +40,11 @@
             <!-- List of video thumbnails with links -->
         </div>
     </section>
+
     <section id="news">
-    <div class="container">
-        <h2>Berita Terbaru</h2>
-        <div id="latest-news-content"></div> <!-- Ini adalah tempat untuk menampilkan konten -->
+        <div class="container">
+            <h2>Berita Terbaru</h2>
+            <div id="latest-news-content"></div> <!-- Ini adalah tempat untuk menampilkan konten -->
         </div>
     </section>
 
@@ -58,5 +66,17 @@
             <p>&copy; 2024 Megavora. All Rights Reserved.</p>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $.get('articles/Pengenalan.md', function(data) {
+                var converter = new showdown.Converter();
+                var htmlContent = converter.makeHtml(data);
+                $('#latest-news-content').html(htmlContent);
+            });
+        });
+    </script>
 </body>
 </html>
