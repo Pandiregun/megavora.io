@@ -21,7 +21,7 @@
 
     <script>
         // Ambil konten artikel Markdown menggunakan fetch API
-        fetch('article1.md') // Ganti 'article1.md' dengan nama file artikel Anda
+        fetch('articles/Pengenalan.md') // Ganti 'article1.md' dengan nama file artikel Anda
             .then(response => response.text())
             .then(markdown => {
                 document.getElementById('article-content').innerHTML = marked(markdown);
