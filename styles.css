@@ -12,16 +12,52 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    position: relative;
 }
 
-header h1 {
-    margin: 0;
+header img {
+    max-width: 150px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: auto;
     padding: 20px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 footer {
@@ -31,19 +67,24 @@ footer {
     padding: 20px 0;
 }
 
-.post {
-    margin-bottom: 40px;
+.social-media {
+    list-style: none;
+    padding: 0;
+    text-align: center;
 }
 
-.post h3 {
-    margin-top: 0;
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
 }
 
-.post img {
-    max-width: 100%;
-    height: auto;
+.social-media li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
 }
 
-section {
-    padding: 50px 0;
+.social-media li a:hover {
+    color: #ddd;
 }
