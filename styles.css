@@ -1,10 +1,10 @@
-/* styles.css */
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: RGB(244,244,244);
+    background-image: url('Assets/latar.jpg');
+    background-size: cover; /* agar gambar selalu menutupi seluruh laman */
+    background-position: center; /* agar gambar terletak di tengah laman */
 }
 
 header {
