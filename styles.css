@@ -6,7 +6,9 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-
+body {
+    background-color: rgb(244, 244, 244); /* Warna abu-abu muda menggunakan nilai RGB */
+}
 header {
     background-color: #333;
     color: #fff;
