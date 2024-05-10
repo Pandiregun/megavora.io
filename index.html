@@ -3,29 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artikel</title>
+    <title>Megavora - Channel Blockchain dan Cryptocurrency</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Artikel</h1>
+        <img src="Assets/logo.png" alt="Megavora Logo">
+        <h1>Megavora</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#videos">Video</a></li>
+                <li><a href="#news">Berita</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="container" id="article-content">
-        <!-- Tempat untuk menampilkan konten artikel Markdown -->
-    </div>
+    <section id="about">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <p>Channel Megavora didedikasikan untuk memberikan pemahaman mendalam tentang teknologi blockchain dan cryptocurrency. Kami membantu pemula memahami konsep dasar dan lanjutan serta memberikan berita terbaru dan tips investasi.</p>
+        </div>
+    </section>
+
+    <section id="videos">
+        <div class="container">
+            <h2>Video</h2>
+            <!-- List of video thumbnails with links -->
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="container">
+            <h2>Berita Terbaru</h2>
+            <!-- Latest news articles or updates -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <p>Jika Anda memiliki pertanyaan atau ingin berkolaborasi, silakan hubungi kami melalui email di megavora@gmail.com</p>
+            <ul class="social-media">
+                <li><a href="https://www.youtube.com/@megavora">YouTube</a></li>
+                <li><a href="https://www.tiktok.com/@pandiregun">TikTok</a></li>
+                <li><a href="https://x.com/megavora">Twitter</a></li>
+                <li><a href="https://facebook.com/pandiregun">Facebook</a></li>
+            </ul>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Artikel. All Rights Reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Megavora. All Rights Reserved.</p>
+        </div>
     </footer>
-
-    <script>
-        // Ambil konten artikel Markdown menggunakan fetch API
-        fetch('articles/Pengenalan.md') // Ganti 'article1.md' dengan nama file artikel Anda
-            .then(response => response.text())
-            .then(markdown => {
-                document.getElementById('article-content').innerHTML = marked(markdown);
-            });
-    </script>
 </body>
 </html>
